@@ -57,7 +57,7 @@ public abstract class Pato {
     }
 
     public void Nadar() {
-        System.out.println("Estoy nadando");
+        System.out.println("Esta nadando");
     }
 
     public void Dibujar() {

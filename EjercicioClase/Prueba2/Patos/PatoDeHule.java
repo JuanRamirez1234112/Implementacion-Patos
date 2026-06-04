@@ -12,6 +12,7 @@ public class PatoDeHule extends Pato {
         establecerVuelo("sinVuelo");
         Graznar("Chillido");
         Volar("sinVuelo");
+        Nadar();
     }
 
     @Override
