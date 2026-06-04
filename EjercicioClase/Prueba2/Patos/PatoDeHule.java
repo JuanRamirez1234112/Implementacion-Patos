@@ -10,8 +10,8 @@ public class PatoDeHule extends Pato {
         Dibujar();
         establecerGraznido("Chillido");
         establecerVuelo("sinVuelo");
-        Graznar("Chillido");
-        Volar("sinVuelo");
+        Graznar();
+        Volar();
         Nadar();
     }
 

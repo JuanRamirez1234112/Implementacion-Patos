@@ -10,7 +10,8 @@ import Prueba2.Comportamientos.Mudo;
 import Prueba2.Comportamientos.Quack;
 import Prueba2.Comportamientos.sinVuelo;
 import Prueba2.Comportamientos.vueloConAlas;
-
+import Prueba2.Comportamientos.VueloConPoderes;
+import Prueba2.Comportamientos.Canto;
 
 
 public abstract class Pato {
@@ -28,10 +29,11 @@ public abstract class Pato {
         comportamientosGraznido.put("Chillido", new Chillido());
         comportamientosGraznido.put("Mudo", new Mudo());
         comportamientosGraznido.put("Quack", new Quack());
-
+        comportamientosGraznido.put("Canto", new Canto());
 
         comportamientosVuelo.put("sinVuelo", new sinVuelo());
         comportamientosVuelo.put("vueloConAlas", new vueloConAlas());
+        comportamientosVuelo.put("vueloConPoderes", new VueloConPoderes());
 
     }
 
@@ -48,11 +50,11 @@ public abstract class Pato {
         
     }
 
-    public void Graznar(String tipoGraznido) {
+    public void Graznar() {
         this.tipoGraznido.graznar();
     }
 
-    public void Volar(String tipoVuelo) {
+    public void Volar() {
         this.tipoVuelo.volar();
     }
 
@@ -63,8 +65,6 @@ public abstract class Pato {
     public void Dibujar() {
         
     }
-
-    
 
 }
 

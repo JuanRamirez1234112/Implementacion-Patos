@@ -11,8 +11,8 @@ public class PatoDeCaza extends Pato {
         Dibujar();
         establecerGraznido("Mudo");
         establecerVuelo("sinVuelo");
-        Graznar("Mudo");
-        Volar(("sinVuelo"));
+        Graznar();
+        Volar();
         Nadar();
     
     }
