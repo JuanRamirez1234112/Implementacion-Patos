@@ -10,8 +10,8 @@ public class PatoMallard extends Pato {
         Dibujar();
         establecerVuelo("vueloConAlas");
         establecerGraznido("Quack");
-        Graznar("Quack");
-        Volar("vueloConAlas");
+        Graznar();
+        Volar();
         Nadar();
 
     }

@@ -9,8 +9,8 @@ public class PatoMandarin extends Pato {
         Dibujar();
         establecerGraznido("Quack");
         establecerVuelo("vueloConAlas");
-        Graznar("Quack");
-        Volar("vueloConAlas");
+        Graznar();
+        Volar();
         Nadar();
     }
 
