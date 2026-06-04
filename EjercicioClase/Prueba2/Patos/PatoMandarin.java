@@ -11,7 +11,7 @@ public class PatoMandarin extends Pato {
         establecerVuelo("vueloConAlas");
         Graznar("Quack");
         Volar("vueloConAlas");
-    
+        Nadar();
     }
 
     @Override
